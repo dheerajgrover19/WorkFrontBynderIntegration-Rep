@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e46206d0-0525-4882-9009-bda0e7370b24": {
+      "ProjectGuid": "e46206d0-0525-4882-9009-bda0e7370b24",
+      "DisplayName": "YouTubeTutorialforBynderAPI",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "eb7dde05-6a23-4bd6-a4e0-49a3eec8da64": {
+      "ProjectGuid": "eb7dde05-6a23-4bd6-a4e0-49a3eec8da64",
+      "DisplayName": "WorkFrontBynderIntegration",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

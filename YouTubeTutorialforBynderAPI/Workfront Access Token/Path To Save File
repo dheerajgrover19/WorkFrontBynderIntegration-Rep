@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en_US"
+      data-version-id="1643688429">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+
+  <title>Workfront</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="slack-app-id" content="A7CLAMVNW">
+  <link rel="shortcut icon" href="/static/img/rebranding/favicon.ico?v=3&build=1643688429"/>
+
+  <script>
+      (function(apiKey){
+        (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=[];
+        v=['initialize','identify','updateOptions','pageLoad'];for(w=0,x=v.length;w<x;++w)(function(m){
+        o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
+        y=e.createElement(n);y.async=!0;y.src='https://cdn.pendo.io/agent/static/'+apiKey+'/pendo.js';
+        z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
+        // Call this whenever information about your visitors becomes available
+        // Please use Strings, Numbers, or Bools for value types.
+        var visitorId = 'null';
+        var accountId = 'null';
+        pendo.initialize({
+          excludeAllText: true,
+          excludeTitle: true,
+          visitor: {
+            id: visitorId,
+            role: 'null',
+            timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+            licenseType: 'null',
+            isAdmin: null,
+            hasQuicksilver: 'false'
+          },
+          account: {
+            id: accountId,
+            name: 'null'
+          }
+        });
+      })('bbb5474b-3b1c-4c8f-617f-c6b92fb09d2d');
+    </script>
+  <script
+    src="/static/prod/js/datadog-rum-slim.js?build=1643688429"
+    type="text/javascript">
+  </script>
+  <script>
+    window.DD_RUM && window.DD_RUM.init({
+      applicationId: '657ca73b-a321-4de3-8480-6b79a67a0098',
+      clientToken: 'pub18de2f2b7fa35cd9cd7c58fe4c2dd334',
+      site: 'datadoghq.com',
+      sampleRate: 100,
+      trackInteractions: true,
+      env: 'preview-CL07',
+      proxyUrl: '/dd-proxy'
+    });
+  </script>
+<script type="text/javascript" src="/static/prod/libs/requirejs.js?build=6da8be361b9ee26c5e721e76c6d4afce"></script><script type="text/javascript" src="/static/js/lib/require-config.js?build=342268f1f7b5bfe4c5aa73be4affc4ac"></script><link rel="stylesheet" href="/static/prod/libs/titan/kashyyyk-theme/fonts.css" media="none"
+        onload="if(media!='all')media='all'">
+
+  <style>
+    body {
+      background-color: #000000;
+     background-image: url("/branding/image?ID=5bd29d290201f265ed71262b32a5c8e6&type=jpeg");
+      background-repeat: no-repeat;
+     background-position: center top;
+    
+		}
+
+		
+		img.logo {
+			height: auto;
+			width: auto;
+			min-height: 20px;
+			max-height: 120px;
+			min-width: 20px;
+			max-width: 300px;
+		}
+
+		.form.vertical .form-group-last {
+			margin-bottom: 40px;
+		}
+		
+
+		#center-tile .panel {
+			background-color: rgba(255, 255, 255, 0.85);
+			position: relative;
+		}
+
+		noscript .panel {
+			padding: 16px;
+			width: 500px;
+			margin: auto;
+			border: 1px solid #ac1d19;
+			border-radius: 5px;
+			background-color: #fefefe;
+			color: #555555;
+			line-height: 1.42857143;
+		}
+
+		noscript .panel-title {
+			margin-bottom: 5px;
+			font-size: 18px;
+			color: #a8110d;
+		}
+
+		noscript .panel-body {
+			font-size: 16px;
+		}
+
+		
+		body, html {
+			height: 100%;
+		}
+		.mls-wrapper {
+			width: 69%;
+		}
+		.marketing-login-screen-wrapper {
+			min-width: 650px;
+			min-height: 100%;
+			position: relative;
+		}
+		.marketing-login-screen {
+			background: #FFFFFF;
+			/*border-left: 4px solid #ffffff;*/
+			cursor: pointer;
+			position: absolute;
+			overflow: hidden;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			width: 30%;
+			min-height: 100%;
+		}
+		.marketing-login-screen-content {
+			background-color: #FFFFFF;
+			cursor: pointer;
+			width: 170%;
+		}
+		.marketing-login-screen a {
+			cursor: pointer;
+			display: inline-block;
+		}
+		.marketing-login-screen img {
+			/*display: block;
+			height: auto;
+			max-width: 100%;
+			width: 100%;*/
+
+			width: 100%;
+			position: absolute;
+			left: 50%;
+			top: 0;
+			transform: translate(-50%, 0);
+		}
+		.powered-by {
+			z-index: 1;
+		}
+		</style>
+</head>
+<body class="webkit unknown">
+	<div id="sandbox-banner" class="cf">
+			<div class="left-block">
+				<h2>
+					You are viewing Preview.
+						( <a class="preview-beta-label" href="https://one.workfront.com/s/product-releases" target="_blank">&#034;See what&#039;s new.&#034;</a> )
+					</h2>
+				<div class="desc">&nbsp;</div>
+			</div>
+			<div class="right-block">
+				<a class="btn" href="https://thermofishermsd.my.workfront.com" target="_blank">Go to production</a>
+			</div>
+		</div>
+	<div class="marketing-login-screen-wrapper">
+		<div class="mls-wrapper">
+<div class="content content-fixed-width">
+				<noscript>
+					<div class="panel panel-lg panel-error">
+						<div class="panel-title">Let&#39;s try that again.</div>
+						<div class="panel-body">Workfront requires JavaScript be enabled within your browser</div>
+					</div>
+				</noscript>
+
+				<div id="login-layout-cookies-disabled-msg" class="panel panel-lg panel-error" style="display: none">
+					<div class="panel-title">Let&#39;s try that again.</div>
+					<div class="panel-body">Workfront requires cookies be enabled within your browser</div>
+				</div>
+
+				<div id="center-tile" class="hidden ng-cloak " ng-cloak>
+					<div at-login-screen next-url="/internal/document/download?versionID=5d1bf19203b1d9d949953d03c6d55d11&amp;ID=5d1bf19203b1d9d8e82191ec37073853" sso-error-args="{}"></div>
+				</div>
+			</div>
+	</div>
+		<div class="marketing-login-screen">
+			<div class="marketing-login-screen-content">
+				<a href="https://www.workfront.com/campaigns/state-of-work"
+				   target="_blank"
+				   title="Read the report">
+					<img src="https://www.workfront.com/sites/default/files/2021-04/20_sow_wf-login_504x947.jpg" alt="Read the report"/>
+				</a>
+			</div>
+		</div>
+	</div>
+
+<script id="non-minified-scripts">
+		require(['titan/smart-app-banner/main.en'], function (SmartBanner) {
+			// Hide smart banner if there is `forgotPassword` in URL (which means the user opened that page via mobile app, see task #22079371 for more details)
+			if (!/\bforgotPassword\b/.test(window.location.href)) {
+				new SmartBanner();
+			}
+		});
+	
+						function handleDocumentReady() {
+							document.removeEventListener('DOMContentLoaded', handleDocumentReady);
+							require(['titan/login/layout'], function(bundle) {
+								if (bundle.cookieSupportCheck()) {
+									bundle.cookieTimezone();
+
+									var centerTile = document.getElementById('center-tile');
+									var environmentConfig = {"isKaminoRemindPasswordEnabled":true,"customerInfo":{"brandingInfo":{"loginLogo":{"fileExtension":"png","position":"left","shouldFillScreen":false,"url":"\/branding\/image?ID=5bc12b99008f114421c07d3acb62c3aa&type=png","ID":"5bc12b99008f114421c07d3acb62c3aa"},"navbarLogo":{"fileExtension":"png","position":"left","shouldFillScreen":false,"url":"\/branding\/image?ID=5bc12f3c00901f5a00644b1d4ba589c8&type=png","ID":"5bc12f3c00901f5a00644b1d4ba589c8"},"navbarBottomBorderColor":"#ee3134","loginBackgroundColor":"#000000","backgroundImages":[{"fileExtension":"jpeg","position":"center","shouldFillScreen":false,"url":"\/branding\/image?ID=5bd29d290201f251c27cfdbf46d6ab14&type=jpeg","ID":"5bd29d290201f251c27cfdbf46d6ab14"},{"fileExtension":"jpeg","position":"center","shouldFillScreen":false,"url":"\/branding\/image?ID=5bd29d290201f265ed71262b32a5c8e6&type=jpeg","ID":"5bd29d290201f265ed71262b32a5c8e6"},{"fileExtension":"jpeg","position":"center","shouldFillScreen":false,"url":"\/branding\/image?ID=5bd29d290201f26a814e43818ea701e3&type=jpeg","ID":"5bd29d290201f26a814e43818ea701e3"},{"fileExtension":"jpeg","position":"center","shouldFillScreen":false,"url":"\/branding\/image?ID=5bd29d290201f2717bd25bb283fbd30f&type=jpeg","ID":"5bd29d290201f2717bd25bb283fbd30f"}]},"domain":"thermofishermsd"}};
+									centerTile.className = centerTile.className.replace(/\bhidden\b/,'');
+
+									require(['angular', 'titan/login/login'], function(angular, LoginModule) {
+										LoginModule.config(function(environmentConfigProvider) {
+											environmentConfigProvider.addOverrides(environmentConfig);
+										});
+
+										angular.bootstrap(centerTile, [LoginModule.name]);
+									});
+								}
+								else {
+									//use inline styles here to hmarketing-login-screen-contentide this message when assets are missing
+									document.getElementById("login-layout-cookies-disabled-msg").style.display = 'block';
+								}
+							});
+						}
+						document.addEventListener('DOMContentLoaded', handleDocumentReady);
+					</script>
+
+<script id="minified-scripts">require(['titan/login/layout']);</script>
+</body>
+</html>
